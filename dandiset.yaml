@@ -7,21 +7,30 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  approach: []
+  approach:
+  - name: microscopy approach; cell population imaging
+    schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
-  measurementTechnique: []
-  numberOfBytes: 4333612647
-  numberOfFiles: 1
-  numberOfSubjects: 2
+  measurementTechnique:
+  - name: two-photon microscopy technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 58526945507
+  numberOfFiles: 2
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
-  variableMeasured: []
+  variableMeasured:
+  - ImagingPlane
+  - OpticalChannel
+  - TwoPhotonSeries
 citation: O'Connor, Dave (2022) One photon mesoscale calcium imaging of multiple cell
   types (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000244/draft
 contributor:
