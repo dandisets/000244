@@ -19,9 +19,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 486066602406
-  numberOfFiles: 16
-  numberOfSubjects: 8
+  numberOfBytes: 1068310244612
+  numberOfFiles: 33
+  numberOfSubjects: 25
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -29,8 +29,8 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured:
   - ImagingPlane
-  - OpticalChannel
   - TwoPhotonSeries
+  - OpticalChannel
 citation: O'Connor, Dave (2022) One photon mesoscale calcium imaging of multiple cell
   types (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000244/draft
 contributor:
