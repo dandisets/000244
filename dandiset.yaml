@@ -33,7 +33,7 @@ assetsSummary:
   - OpticalChannel
   - TwoPhotonSeries
 citation: O'Connor, Dave (2026) One photon mesoscale calcium imaging of multiple cell
-  types (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000244/draft
+  types (Version 0.260909.1523) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.000244/0.260909.1523
 contributor:
 - affiliation: []
   email: david_oconnor@live.ie
@@ -43,25 +43,39 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2022-05-09T20:37:01.714202+00:00'
+datePublished: '2026-09-09T15:23:46.985320+00:00'
 description: One photon dual wavelength mesoscale calcium imaging of mouse isocortex.
   Includes data from awake and anesthetized subjects with excitatory neuron sensitive
   GECIs, and data from awake subjects with GECIs sensitive to three different inhibitory
   interneuron cell types (PV, SOM and VIP).
+doi: 10.48324/dandi.000244/0.260909.1523
 ethicsApproval: []
-id: DANDI:000244/draft
+id: DANDI:000244/0.260909.1523
 identifier: DANDI:000244
 keywords: []
 license:
 - spdx:CC0-1.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000244/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000244/0.260909.1523/assets.yaml
 name: One photon mesoscale calcium imaging of multiple cell types
 protocol: []
+publishedBy:
+  endDate: '2026-09-09T15:23:46.985320+00:00'
+  id: urn:uuid:03cdc51f-70bb-4d40-abcd-34d4e7a1f6de
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-09-09T15:23:46.985320+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:68dd69a0-838e-425c-816b-b654156c3e25
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.3
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000244/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000244/0.260909.1523
+version: 0.260909.1523
 wasGeneratedBy: []
